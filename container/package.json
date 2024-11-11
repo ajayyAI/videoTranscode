@@ -1,0 +1,17 @@
+{
+    "name": "skillclub-transcoder",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@aws-sdk/client-s3": "^3.688.0",
+        "dotenv": "^16.4.5",
+        "fluent-ffmpeg": "^2.1.3"
+    }
+}
