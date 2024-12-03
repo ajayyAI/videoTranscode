@@ -1,7 +1,7 @@
 import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
-import urlRoutes from '../routes/url';
+import urlRoutes from './routes/url';
 
 // Load environment variables
 dotenv.config();
